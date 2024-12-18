@@ -487,3 +487,85 @@
     color: rgb(72, 72, 72);
     line-height: 1.5;
 }
+
+.text3 {
+    width: 15rem;
+    font-size: 15px;
+}
+
+.question {
+    display: flex;
+    border: 2px solid rgb(241, 179, 80);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.question a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(30, 96, 154);
+}
+
+.labtest ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.labtest li {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.labtest li a {
+    color: black;
+    text-decoration: none;
+}
+
+.upArrow {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    background-color: #fecc4e;
+    justify-content: space-around;
+    padding: 40px 80px;
+    line-height: 30px;
+}
+
+.footer p {
+    color: rgb(52, 50, 50);
+    font-weight: 100;
+}
+
+.footer p:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #0047ae;
+    color: white;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.copyright p {
+    font-size: 13px;
+}
+
+.chat {
+    background-color: rgb(63, 180, 209);
+    color: white;
+    padding: 10px 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 3rem;
+    margin-top: 40px;
+}
