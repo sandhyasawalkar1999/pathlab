@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.head {
+    display: flex;
+    background-color: rgb(247, 205, 54);
+    padding: 15px 65px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.head a {
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.head a:hover {
+
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.head .first {
+    color: #0047ae;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.blog {
+    font-size: 12px;
+}
+
+.user a {
+    color: #0047ae;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.icon {
+    color: #0047ae;
+    font-size: 15px;
+}
+
+.icon1 {
+    font-size: 20px;
+}
+
+.head .blog a {
+    font-size: 11px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.nav2 {
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 50px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.location {
+    font-size: 28px;
+    color: #0047ae;
+    align-self: center;
+    margin-right: 2px;
+}
+
+.location2 {
+    margin-left: 50px;
+}
+
+.location2 .input1 input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 7.5rem;
+    margin-left: 2px;
+    border: none;
+    box-shadow: 0px 3px rgb(60, 142, 200);
+    background-color: rgb(246, 241, 241);
+
+}
+
+
+.delhi {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.input2 {
+    box-shadow: 0px 3px rgb(60, 142, 200);
+    background-color: white;
+}
+
+.input2 input {
+    width: 12rem;
+    padding: 10px;
+    border: none;
+}
+
+.input2 .search {
+    color: rgb(60, 142, 200);
+    font-size: 22px;
+}
+
+.cart {
+    margin-left: 20px;
+}
+
+.abhacard {
+    display: flex;
+    background-color: #0047ae;
+    margin-left: 20px;
+    color: white;
+    width: 10rem;
+    padding: 10px 10px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.addresscard {
+    font-size: 30px;
+}
+
+.abhacard p {
+    margin-left: 10px;
+}
+
+.nav3 {
+    background-color: rgb(247, 205, 54);
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.nav3 a {
+    color: rgb(62, 59, 59);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ml {
+    margin-left: 110px;
+    margin-right: 20px;
+}
+
+.datalinks {
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0047ae;
+    position: relative;
+    height: 20rem;
+}
+
+.card {
+    border-left: 1px solid rgb(239, 178, 67);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #0047ae;
+    margin: 25px 0px;
+}
+
+.card img {
+    margin-left: 20px;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+.programs {
+    background-color: rgb(219, 218, 218);
+}
+
+.SpecialProgram {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    /* position: absolute;
+    top: 105%; */
+    width: 90%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+.SpecialProgram h1 {
+    font-size: 28px;
+}
+
+.SpecialProgramCards {
+    border-right: 1px solid rgb(217, 214, 214);
+    width: 25rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.SpecialProgramCards img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+.TestsCards {
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 15px;
+    align-self: center;
+    margin: 20px;
+    ;
+}
+
+.TestCard h3 {
+    color: rgb(40, 39, 39);
+}
+
+
+.TestCard .know {
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.know a {
+    text-decoration: none;
+    color: #0047ae;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+
+.amout {
+    background-color: rgb(241, 179, 80);
+    width: 70%;
+    padding: 10px;
+}
+
+.booking {
+    background-color: #0047ae;
+    width: 30%;
+    padding: 10px;
+    color: white;
+
+}
+
+.viewAll {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+
+}
+
+.viewAll a {
+    color: #0047ae;
+}
+
+.searchTest {
+    justify-content: space-between;
+}
+
+.test {
+    border-radius: 20px;
+    background-color: rgb(241, 179, 80);
+    color: black;
+    padding: 15px 50px;
+    width: 15rem;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.test2 {
+    background-color: rgb(164, 161, 161);
+    color: white;
+    width: 10rem;
+}
+
+.test2:hover {
+    background-color: rgb(241, 179, 80);
+    color: black;
+}
+
+.testinput {
+    border: 1px solid rgb(94, 92, 92);
+    display: flex;
+    align-items: center;
+}
+
+.testinput input {
+    width: 20rem;
+    border: none;
+    padding: 5px;
+
+}
+
+.testinput .icon {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.arrow {
+    margin-top: 80px;
+
+}
+
+.cardsLogo {
+    border-right: 2px solid rgb(229, 222, 222);
+    padding: 30px;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-evenly;
+    width: 12rem;
+}
+
+.cardsLogo img {
+    width: 80px;
+    height: 80px;
+}
+
+.cardsLogo h3 {
+    color: rgb(35, 34, 34);
+    font-weight: 100;
+}
+
+.labsCards {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin: 20px;
+}
+
+.labcardimg {
+    margin: 0px 20px;
+}
+
+.blue {
+    color: #0047ae;
+}
+
+.labCard h3 {
+
+    font-weight: 300;
+}
+
+.labcardimg:hover {
+    transform: scale(1.2);
+    transition: transform 1.2s ease;
+}
+
+.promotion img {
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.covid {
+    display: flex;
+}
+
+.covidfirst {
+    padding: 30px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.covidfirst img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.covidfirst h3 {
+    font-weight: 200;
+}
+
+.quality {
+    margin: 10px;
+    padding: 10px;
+}
+
+.quality img:hover {
+    transform: scale(1.2);
+    transition: transform 1.2s ease;
+}
+
+.qualitycontent {
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.qualitycontent h3 {
+    font-weight: 200;
+}
+
+.accreditation {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin: 10px;
+}
+
+.certificateimages {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.app {
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    top: 590%;
+    left: 100px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.articleacard {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+.articleacard img {
+    width: 420px;
+    border-radius: 10px;
+}
+
+.articleacard h3 {
+    font-weight: 100;
+}
+
+.video {
+    padding: 15px;
+    width: 32rem;
+    height: 22rem;
+    margin: 10px;
+
+}
+
+.video img {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+
+.experience p {
+    color: rgb(72, 72, 72);
+    line-height: 1.5;
+}
